@@ -85,6 +85,8 @@
 		width: 60em;
 	}
 
+	/* Rest of code for sizes of screen on web and mobile */
+
 	@media screen and (max-width: 1680px) {
 
 		.container.\31 25\25 {
@@ -1810,8 +1812,8 @@
 		color: #666;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
-		font-weight: 300;
-		line-height: 1.65em;
+		font-weight: 400;
+		line-height: 1.5em;
 	}
 
 	a {
@@ -1831,7 +1833,7 @@
 
 	strong, b {
 		color: #555;
-		font-weight: 400;
+		font-weight: 800;
 	}
 
 	em, i {
@@ -2705,11 +2707,15 @@
 /* Main */
 
 	.main {
-		padding: 3em 0 3em 0 ;
+		padding: 3em 0 3em 0em ;
 	}
 
 		.main.style1 {
 			background: #ffffff;
+			background-image: url("images/girlfence.jpg");
+			background-position: left;
+			background-size: cover;
+			padding: 3em 0 3em 8em;
 		}
 
 		.main.style3 {
