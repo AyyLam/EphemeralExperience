@@ -1841,13 +1841,13 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #555;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2328,12 +2328,13 @@
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 1em 0;
 			width: 100%;
 		}
 
 			.image.fit img {
 				width: 100%;
+
 			}
 
 /* List */
@@ -2713,9 +2714,7 @@
 		.main.style1 {
 			background: #ffffff;
 			background-image: url("images/girlfence.jpg");
-			background-position: left;
-			background-size: cover;
-			padding: 3em 0 3em 8em;
+			padding: 3em 0 3em 5em;
 		}
 
 		.main.style3 {
@@ -2723,6 +2722,7 @@
 			background-image: url();
 			background-position:center;
 			background-size: cover;
+			text-align: center;
 
 		}
 			.main.style3 a {
