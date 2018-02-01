@@ -2714,15 +2714,19 @@
 		.main.style1 {
 			background: #ffffff;
 			background-image: url("images/girlfence.jpg");
+			background-position: center right;
 			padding: 3em 0 3em 5em;
+			color:black;
 		}
 
 		.main.style3 {
-			background-color: gray;
-			background-image: url();
-			background-position:center;
+			background-color: rgb(255,0,0,0,0.5);
+			background-image: url("images/skate.png");
+			background-position: middle;
 			background-size: cover;
 			text-align: center;
+			color: black;
+
 
 		}
 			.main.style3 a {
@@ -2734,7 +2738,7 @@
 					}
 
 				.main.style3 h1, .main.style3 h2, .main.style3 h3, .main.style3 h4, .main.style3 h5, .main.style3 h6, .main.style3 strong, .main.style3 b {
-					color: #ffffff;
+					color: white;
 				}
 
 				.main.style3 header p {
@@ -2810,7 +2814,7 @@
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
-			background-image: url(images/pic00.jpg);
+			background-image: url(images/camera.jpg);
 			background-position: center;
 			background-size: 34%;
 			width: 100%;
